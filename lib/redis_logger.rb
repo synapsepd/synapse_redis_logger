@@ -27,7 +27,7 @@ class RedisLogger
     self.redis
   end
 
-  #t
+  #
   # Provide standard methods for various log levels. Each just calls the private
   # add_entry() method passing in its level name to use as the group name.
   #
@@ -127,7 +127,6 @@ class RedisLogger
     case sets.class
       when 'String'
         sets = [sets]
-        puts sets
       when 'NilClass'
         sets = []
     end
