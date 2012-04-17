@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "redis_logger"
+    gem.name = "synapse_redis_logger"
     gem.summary = %Q{Application logging into Redis}
     gem.description = %Q{Provides support for applicationlogging to Redis, including grouping log entries and timestamping}
-    gem.email = "masonoise@charnel.com"
-    gem.homepage = "http://github.com/masonoise/redis_logger"
-    gem.authors = ["masonoise"]
+    gem.email = "adams@synapse.com"
+    gem.homepage = "https://github.com/synapsepd/synapse_redis_logger"
+    gem.authors = ["masonoise", "saegey"]
     gem.add_dependency('redis', '>= 1.0.4')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

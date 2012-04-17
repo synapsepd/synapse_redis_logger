@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{redis_logger}
+  s.name = %q{synapse_redis_logger}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["masonoise"]
+  s.authors = ["masonoise", "saegey"]
   s.date = %q{2010-04-16}
-  s.description = %q{Provides support for applicationlogging to Redis, including grouping log entries and timestamping}
-  s.email = %q{masonoise@charnel.com}
+  s.description = %q{Provides support for application logging to Redis, including grouping log entries and timestamping}
+  s.email = %q{adams@synapse.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
      "test/helper.rb",
      "test/test_redis_logger.rb"
   ]
-  s.homepage = %q{http://github.com/masonoise/redis_logger}
+  s.homepage = %q{https://github.com/synapsepd/synapse_redis_logger}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
